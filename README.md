@@ -1,6 +1,6 @@
 # reverse-sentence
 
-Reverses the words of a sentence.
+Переворачивает слова предложения.
 
 ## Install
 
