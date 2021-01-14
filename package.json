@@ -1,12 +1,25 @@
 {
-  "name": "reverse-sentence",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@stanislavkarol/reverse-sentence",
+  "version": "0.1.0",
+  "description": "Reverses a sentence.",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/prettier/bin-prettier.js . --write",
+    "prepublish": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SLKarol/reverse-sentence.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SLKarol/reverse-sentence/issues"
+  },
+  "homepage": "https://github.com/SLKarol/reverse-sentence#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
 }
